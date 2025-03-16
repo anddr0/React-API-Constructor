@@ -11,6 +11,16 @@
 
 ---
 
+## Demonstration
+### Api Form
+![image](https://github.com/user-attachments/assets/c35be885-b075-46ee-b2f2-0989f6afacd4)
+### Response
+![image](https://github.com/user-attachments/assets/9ec1a9f9-a923-42b6-b3ae-fac15c91eebd)
+### "Mobile" version (for small screens)
+![image](https://github.com/user-attachments/assets/fd61306f-67d2-432f-a805-6dd74f7a4f60)
+
+---
+
 ## Features
 - **Dynamic Request Builder**: Choose HTTP method, add headers, and optionally provide a JSON body.
 - **Real-Time Response Preview**: View responses as formatted JSON or raw text.
