@@ -13,11 +13,13 @@
 
 ## Demonstration
 ### Api Form
-<img src="https://github.com/user-attachments/assets/c35be885-b075-46ee-b2f2-0989f6afacd4" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/c35be885-b075-46ee-b2f2-0989f6afacd4" width="500" height="600">
+
 ### Response
-<img src="https://github.com/user-attachments/assets/9ec1a9f9-a923-42b6-b3ae-fac15c91eebd" width="400" height="500">
+<img src="https://github.com/user-attachments/assets/9ec1a9f9-a923-42b6-b3ae-fac15c91eebd" width="700" height="500">
+
 ### "Mobile" version (for small screens)
-<img src="https://github.com/user-attachments/assets/fd61306f-67d2-432f-a805-6dd74f7a4f60" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/fd61306f-67d2-432f-a805-6dd74f7a4f60" width="400" height="500">
 
 ---
 
