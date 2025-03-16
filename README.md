@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# React API Constructor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Overview
+**API Constructor** is a pet project built to highlight my **React** skills. It uses a custom hook (`useApiRequest`) for all HTTP calls (powered by **axios**), manages form data in React state, and displays responses via **React JSON Viewer**. Tailwind CSS is used for styling and **ESLint / Prettier** help maintain code quality.
 
-In the project directory, you can run:
+**This project:**
+- Demonstrates modular React component architecture
+- Illustrates how to handle HTTP requests, errors, and loading states with a custom hook
+- Showcases code organization, error boundaries, and basic test setups with **Jest**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- **Dynamic Request Builder**: Choose HTTP method, add headers, and optionally provide a JSON body.
+- **Real-Time Response Preview**: View responses as formatted JSON or raw text.
+- **Error Handling**: Custom error messages for different status codes (404, 401, 500, etc.).
+- **Responsive Layout**: Built with Tailwind, ensuring a clean UI on mobile and desktop.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
+- **React** (create-react-app)
+- **Axios** (HTTP requests)
+- **Tailwind CSS** (styling)
+- **Material UI Icons** (icons)
+- **Jest** (unit and integration tests)
+- **ESLint & Prettier** (code linting & formatting)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Prerequisites
+- **Node.js** (v16+ recommended)
+- **npm** or **yarn** package manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/your-username/api-constructor.git
+   cd api-constructor
+   ```
 
-### `npm run eject`
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Run the development server**:
+   ```bash
+   npm start
+   ```
+   The app will be served at **http://localhost:3000**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
+1. **Enter the Request URL** (e.g., `https://jsonplaceholder.typicode.com/posts`).
+2. **Select HTTP Method** (GET, POST, PUT, DELETE).
+3. (Optional) **Add Headers** by clicking “Add Header” and specifying `key` and `value`.
+4. (Optional) **Add Request Body** in JSON format (for POST/PUT).
+5. **Send the Request** by clicking “Send API Request”.
+6. View the **Response** in the right panel:
+    - Copy the response to your clipboard.
+    - Clear the response to start fresh.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Important**: This app does not enforce CORS restrictions or authentication by default. Make sure your endpoint supports requests from your browser environment.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Testing
+1. **Unit/Integration Tests** use **Jest** and **React Testing Library**.
+2. Run tests:
+   ```bash
+   npm test
+   ```
+   The coverage and test results will be shown in the console.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Future Improvements
+- **TypeScript**: Add type definitions for props, hooks, and utilities.
+- **Authentication**: Support OAuth2, JWT, or Basic Auth.
+- **Persisted History**: Save previous requests and responses.
+- **Environment Variables**: Add environment-based configs (dev, staging, prod).
+- **User-friendly Validation**: More robust URL validation, JSON schema checks, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

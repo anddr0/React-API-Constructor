@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Стилизация скроллбара */
+::-webkit-scrollbar {
+    width: 10px; /* Толщина скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b; /* Цвет фона скроллбара (gray-800) */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569; /* Цвет ползунка (gray-600) */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b; /* Цвет при наведении (gray-500) */
+}
